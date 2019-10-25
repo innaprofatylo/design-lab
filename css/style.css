@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700&display=swap');
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 950px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-section{
+	position: relative;
+text-align: center;
+margin: 100px auto;
+
+}
+.ba-section:before, .ba-section:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 35px;
+	height: 2px;
+	background-color: #000;
+	font-size: 0;
+	width: 30%;
+}
+.ba-section:before{
+	left: 0;
+	width: 25%;
+}
+.ba-section:after{
+	right: 0;
+	width: 25%;
+}
+
+p{
+	padding: 0 50px 95px;
+	line-height: 1.8;
+}
+.ba-content{
+	border: 2px solid #000;
+	border-top: none;
+	padding: 50px 100px;
+		
+}
+.ba-title{
+	font-weight: 700;
+	font-size: 34px;
+	text-transform: uppercase;
+}
+.ba-content__item{
+padding: 50px 0;
+}
+h3{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.8;
+	letter-spacing: 6;
+	padding-top: 10px;
+}
+
+
