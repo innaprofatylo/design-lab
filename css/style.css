@@ -54,17 +54,21 @@ select:focus {
 textarea {
 
 }
+
 .ba-section{
 	position: relative;
 text-align: center;
 margin: 100px auto;
 
 }
+h2{
+	margin-bottom: 83px;
+}
 .ba-section:before, .ba-section:after {
 	position: absolute;
 	display: block;
 	content: "";
-	top: 35px;
+	top: 0;
 	height: 2px;
 	background-color: #000;
 	font-size: 0;
@@ -78,31 +82,33 @@ margin: 100px auto;
 	right: 0;
 	width: 25%;
 }
-
+img{
+	margin-bottom: 10px;
+}
 p{
-	padding: 0 50px 95px;
+	margin-bottom: 105px;
 	line-height: 1.8;
 }
 .ba-content{
 	border: 2px solid #000;
 	border-top: none;
-	padding: 50px 100px 0 50px;
+	
 		
 }
-.ba-title{
+h2{
 	font-weight: 700;
 	font-size: 34px;
 	text-transform: uppercase;
 }
-.ba-content__item{
-padding: 50px 0;
+.ba-content__title{
+letter-spacing: 1.5;
 }
 h3{
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.8;
 	letter-spacing: 6;
-	padding-top: 10px;
+	
 }
 
 
